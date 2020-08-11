@@ -37,7 +37,10 @@ function CuboidMaker(length, width, height){
 */
 const cuboid = new CuboidMaker(4, 5, 5);
 /* == Step 5: In your own words, explain why the prototype is used and why it is best practice to create methods on the prototype.
-  Your Explanation:
+  Your Explanation: 
+  Prototype allows me to inherit properties from my contructor function Cuboid Maker. 
+  My new instance of my contructor function (CuboidMaker) has length, height, width, as well as volume and area functions
+  because it has inherited the method and properties from my constructor function.
 */
 
 // Test your volume and surfaceArea methods by uncommenting the logs below:
